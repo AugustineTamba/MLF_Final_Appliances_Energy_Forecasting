@@ -39,39 +39,9 @@ This project implements a complete time-series forecasting pipeline for househol
 # 📁 Repository Structure
 
 MLF_Final_Appliances_Energy_Forecasting/
-
-├── data/
-│   ├── raw/
-│   │   └── energydata_complete.csv
-│   ├── processed/
-│   │   └── preprocessed_hourly.csv
-│   └── results/
-│       └── model_results.csv
-│
-├── figures/
-│   ├── fig1_target_distribution.png
-│   ├── fig2_timeseries_raw.png
-│   ├── fig3_temporal_patterns.png
-│   ├── fig4_correlation_heatmap.png
-│   ├── fig5_weather_vs_energy.png
-│   ├── fig6_hourly_boxplot.png
-│   ├── fig7_train_test_split.png
-│   ├── fig8_acf_pacf.png
-│   ├── fig9_arima_predictions.png
-│   ├── fig10_rf_feature_importance.png
-│   ├── fig11_rf_predictions.png
-│   ├── fig12_lstm_training_history.png
-│   ├── fig13_lstm_predictions.png
-│   ├── fig14_xgb_feature_importance.png
-│   ├── fig15_xgb_predictions.png
-│   ├── fig16_model_comparison_bars.png
-│   ├── fig17_all_models_comparison.png
-│   └── fig18_scatter_all_models.pdf
-│
-├── requirements.txt
-├── README.md
-├── LICENSE
-└── .gitignore
+|
+├── MLF_Final_Appliances_Energy_Forecasting.ipynb
+├── Readme.md
 
 ---
 
